@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1 class="title">To Do List </h1>
+            <div class="logo"><img  src="logo.png" alt="to-do-list"></div>
+        </div>
+        
+        <div class="addNew">
+            <div class="">
+                <input class="taskName" id="taskName" type="text" placeholder="Task Name" />
+            </div>
+            <div class="taskDesc">
+                <div>
+                    <label for="mark">Important :</label>
+                    <input type="checkbox" name="" id="mark" />
+                </label>
+                
+            </div>
+        </div>
+        <input class="btn" type="button" onclick=add() value="Add" />
+    </div>
+    <ul class="taskList" id="taskList">
+    </ul>
+    
+    
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
